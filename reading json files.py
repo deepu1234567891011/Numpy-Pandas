@@ -1,0 +1,12 @@
+import pandas as pd
+df=pd.read_json("students.json")
+print(df.head())
+print(df.tail())
+print(df.describe())
+print(df.columns)
+# df=pd.read_json("students.json",orient="records")
+# df=pd.read_json("students.json",orient="columns")
+# df=pd.read_json("students.json",orient="index")
+# df=pd.read_json("students.json",orient="values")
+# df=pd.read_json("students.json",orient="table")
+# print(df)
